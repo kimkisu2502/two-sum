@@ -8,9 +8,3 @@ def twoSum(nums, target)
                 result.append(j)
             
     return result
-
-target =int(input ('target = ')) 
-print ('number list = ')
-num_list = list(map(int, input().split()))
-
-print(twoSum(num_list,target))
